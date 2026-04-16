@@ -27,3 +27,7 @@ document.querySelectorAll('.feature-item').forEach(item => {
     item.style.transition = "all 0.6s ease-out";
     observer.observe(item);
 });
+const burger = document.getElementById('burger');
+const nav = document.querySelector('.nav-links');
+
+burger.onclick = () => nav.classList.toggle('active');
