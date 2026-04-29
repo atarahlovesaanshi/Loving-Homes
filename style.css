@@ -747,3 +747,49 @@ input:focus, textarea:focus {
 
   .nav-links.active { display: flex; }
 }
+.custom-package {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--linen-cream);
+    border-left: 4px solid var(--gold);
+    border-radius: 20px;
+    padding: 50px 60px;
+    margin-top: 60px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.custom-left { flex: 2; min-width: 280px; }
+
+.custom-left h2 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    margin: 10px 0 15px;
+}
+
+.custom-left p {
+    color: var(--deep-brown);
+    line-height: 1.8;
+}
+
+.paw-icons {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.custom-right { flex: 1; text-align: center; min-width: 180px; }
+
+.btn-custom {
+    background: var(--clay);
+    color: white;
+    padding: 18px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn-custom:hover { background: var(--deep-brown); }
